@@ -1,80 +1,8 @@
-*# Semantic Resume Analyzer*
+*# 🚀 Semantic Resume Analyzer*
 
 
 
-*An AI-powered resume analysis and recruiter search platform that uses NLP, semantic embeddings, ChromaDB, and ATS scoring to intelligently match candidates with job descriptions.*
-
-
-
-*---*
-
-
-
-*# Features*
-
-
-
-*## AI Resume Analysis*
-
-
-
-*\* ATS score calculation*
-
-*\* Semantic similarity matching*
-
-*\* Resume skill extraction*
-
-*\* Missing skill detection*
-
-*\* AI-based recommendations*
-
-*\* PDF report generation*
-
-
-
-*## Semantic Recruiter Search*
-
-
-
-*\* Natural language candidate search*
-
-*\* Semantic similarity search using embeddings*
-
-*\* ChromaDB vector database integration*
-
-*\* Recruiter-focused filtering system*
-
-*\* Top candidate ranking*
-
-
-
-*## Analytics Dashboard*
-
-
-
-*\* ATS score analytics*
-
-*\* Semantic score visualization*
-
-*\* Candidate ranking insights*
-
-*\* Score distribution charts*
-
-*\* Candidate comparison graphs*
-
-
-
-*## Candidate Ranking System*
-
-
-
-*\* Automatic candidate ranking*
-
-*\* Combined ATS + semantic scoring*
-
-*\* Dynamic leaderboard generation*
-
-*\* Real-time filtering support*
+*AI-powered resume analysis and semantic recruiter search platform built using NLP, semantic embeddings, ChromaDB, and ATS scoring.*
 
 
 
@@ -82,11 +10,107 @@
 
 
 
-*# Tech Stack*
+*## 📸 Dashboard Preview*
 
 
 
-*## Frontend*
+*### 🏠 Main Dashboard*
+
+
+
+*<img width="100%" src="assets/screenshots/dashboard.png">*
+
+
+
+*---*
+
+
+
+*### 📄 Resume Analyzer*
+
+
+
+*<img width="100%" src="assets/screenshots/analyzer.png">*
+
+
+
+*<br>*
+
+
+
+*<img width="100%" src="assets/screenshots/analyzer2.png">*
+
+
+
+*---*
+
+
+
+*### 🔎 Semantic Recruiter Search*
+
+
+
+*<img width="100%" src="assets/screenshots/recrutersearch.png">*
+
+
+
+*---*
+
+
+
+*### 🏆 Candidate Rankings*
+
+
+
+*<img width="100%" src="assets/screenshots/ranking.png">*
+
+
+
+*---*
+
+
+
+*### 📈 Analytics Dashboard*
+
+
+
+*<img width="100%" src="assets/screenshots/analytics.png">*
+
+*## ✨ Features*
+
+
+
+*\* ✅ ATS Resume Scoring*
+
+*\* ✅ Semantic Resume Matching*
+
+*\* ✅ AI-Powered Recruiter Search*
+
+*\* ✅ ChromaDB Vector Database Integration*
+
+*\* ✅ Candidate Ranking System*
+
+*\* ✅ Analytics Dashboard*
+
+*\* ✅ Missing Skills Detection*
+
+*\* ✅ AI Resume Recommendations*
+
+*\* ✅ PDF Report Generation*
+
+*\* ✅ Interactive Streamlit UI*
+
+
+
+*---*
+
+
+
+*## 🧠 Tech Stack*
+
+
+
+*### 💻 Frontend*
 
 
 
@@ -98,7 +122,7 @@
 
 
 
-*## AI / NLP*
+*### 🤖 AI / NLP*
 
 
 
@@ -112,7 +136,7 @@
 
 
 
-*## Database*
+*### 🗄️ Database*
 
 
 
@@ -120,7 +144,7 @@
 
 
 
-*## Data Visualization*
+*### 📊 Data Visualization*
 
 
 
@@ -132,7 +156,7 @@
 
 
 
-*## PDF Generation*
+*### 📑 Report Generation*
 
 
 
@@ -144,7 +168,7 @@
 
 
 
-*# Project Architecture*
+*## 📂 Project Architecture*
 
 
 
@@ -160,27 +184,65 @@
 
 *│   │   ├── ats/*
 
+*│   │   │   └── ats\_score.py*
+
+*│   │   │*
+
 *│   │   ├── embeddings/*
+
+*│   │   │   └── semantic\_matcher.py*
+
+*│   │   │*
 
 *│   │   ├── parser/*
 
+*│   │   │   ├── resume\_parser.py*
+
+*│   │   │   └── skill\_extractor.py*
+
+*│   │   │*
+
 *│   │   └── recommendations/*
+
+*│   │       └── recommender.py*
 
 *│   │*
 
 *│   ├── database/*
 
+*│   │   ├── chroma\_store.py*
+
+*│   │   ├── load\_dataset.py*
+
+*│   │   └── test\_search.py*
+
+*│   │*
+
 *│   ├── frontend/*
+
+*│   │   └── streamlit\_app.py*
+
+*│   │*
 
 *│   ├── utils/*
 
+*│   │   └── report\_generator.py*
+
+*│   │*
+
 *│   └── data/*
+
+*│       ├── resumes/*
+
+*│       └── jobs/*
 
 *│*
 
 *├── requirements.txt*
 
-*└── README.md*
+*├── README.md*
+
+*└── .gitignore*
 
 *```*
 
@@ -190,55 +252,7 @@
 
 
 
-*# Screenshots*
-
-
-
-*## Dashboard*
-
-
-
-*Add dashboard screenshot here.*
-
-
-
-*## Resume Analyzer*
-
-
-
-*Add resume analyzer screenshot here.*
-
-
-
-*## Semantic Recruiter Search*
-
-
-
-*Add recruiter search screenshot here.*
-
-
-
-*## Rankings*
-
-
-
-*Add rankings screenshot here.*
-
-
-
-*## Analytics Dashboard*
-
-
-
-*Add analytics screenshot here.*
-
-
-
-*---*
-
-
-
-*# How It Works*
+*## ⚙️ How It Works*
 
 
 
@@ -246,15 +260,15 @@
 
 *2. Paste a job description.*
 
-*3. The system extracts skills and analyzes the resume.*
+*3. ATS engine analyzes keyword relevance.*
 
-*4. ATS scoring engine evaluates keyword relevance.*
+*4. NLP parser extracts important skills.*
 
-*5. Semantic similarity engine compares resume and job description using embeddings.*
+*5. Semantic embedding engine compares resume and job description.*
 
-*6. ChromaDB retrieves semantically related candidate profiles.*
+*6. ChromaDB retrieves semantically similar candidate profiles.*
 
-*7. Analytics and rankings are generated automatically.*
+*7. Rankings and analytics are generated automatically.*
 
 
 
@@ -262,11 +276,11 @@
 
 
 
-*# Installation*
+*## 📦 Installation*
 
 
 
-*## Clone Repository*
+*### Clone Repository*
 
 
 
@@ -280,7 +294,7 @@
 
 
 
-*## Create Virtual Environment*
+*### Create Virtual Environment*
 
 
 
@@ -292,11 +306,11 @@
 
 
 
-*## Activate Virtual Environment*
+*### Activate Virtual Environment*
 
 
 
-*### Windows*
+*#### Windows*
 
 
 
@@ -308,7 +322,7 @@
 
 
 
-*### Mac/Linux*
+*#### Mac/Linux*
 
 
 
@@ -320,7 +334,7 @@
 
 
 
-*## Install Dependencies*
+*### Install Dependencies*
 
 
 
@@ -336,7 +350,7 @@
 
 
 
-*# Run the Application*
+*## ▶️ Run Application*
 
 
 
@@ -352,25 +366,47 @@
 
 
 
-*# Future Enhancements*
+*## 📊 Core Modules*
 
 
 
-*\* Recruiter authentication system*
+*### 📄 Resume Analyzer*
 
-*\* Resume upload portal*
 
-*\* Cloud deployment*
 
-*\* OpenAI/Gemini integration*
+*Analyzes resumes using ATS scoring and semantic matching.*
 
-*\* Advanced analytics*
 
-*\* Multi-role recommendation engine*
 
-*\* Real-time database support*
+*### 🔎 Recruiter Search*
 
-*\* Email-based report delivery*
+
+
+*Uses semantic embeddings and ChromaDB for intelligent candidate retrieval.*
+
+
+
+*### 🏆 Rankings*
+
+
+
+*Ranks candidates using combined ATS and semantic scores.*
+
+
+
+*### 📈 Analytics*
+
+
+
+*Visualizes candidate performance using charts and dashboards.*
+
+
+
+*### 🤖 Recommendations*
+
+
+
+*Provides AI-generated resume improvement suggestions.*
 
 
 
@@ -378,7 +414,33 @@
 
 
 
-*# Learning Outcomes*
+*## 🔮 Future Enhancements*
+
+
+
+*\* Recruiter authentication system*
+
+*\* Cloud deployment*
+
+*\* OpenAI/Gemini integration*
+
+*\* Advanced analytics dashboard*
+
+*\* Real-time database support*
+
+*\* Resume upload portal*
+
+*\* Email-based report sharing*
+
+*\* Multi-role recommendation engine*
+
+
+
+*---*
+
+
+
+*## 📚 Learning Outcomes*
 
 
 
@@ -396,9 +458,9 @@
 
 *\* ATS Resume Analysis*
 
-*\* AI-based Recommendation Systems*
+*\* Recommendation Systems*
 
-*\* Full-stack Python Development*
+*\* Full Stack Python Development*
 
 *\* Data Visualization*
 
@@ -408,11 +470,11 @@
 
 
 
-*# Author*
+*## 👩‍💻 Author*
 
 
 
-*\*\*Shrawani Kapse\*\**
+*### Shrawani Kapse*
 
 
 
@@ -420,7 +482,7 @@
 
 
 
-*Passionate about AI, Full Stack Development, NLP, and Intelligent Systems.*
+*Passionate about AI, NLP, Full Stack Development, and Intelligent Systems.*
 
 
 
@@ -428,7 +490,7 @@
 
 
 
-*# License*
+*## 📄 License*
 
 
 
