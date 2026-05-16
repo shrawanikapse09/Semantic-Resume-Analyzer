@@ -1,0 +1,8 @@
+Seeking a Frontend Developer skilled in
+React, JavaScript, HTML, CSS,
+REST APIs, and UI/UX principles.
+
+Responsibilities:
+- Build responsive web applications
+- Connect frontend with backend APIs
+- Optimize performance

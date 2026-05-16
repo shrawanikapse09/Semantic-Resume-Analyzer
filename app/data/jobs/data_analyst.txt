@@ -1,0 +1,18 @@
+We are looking for a Data Analyst with strong skills in
+Python, SQL, Excel, Power BI, Tableau,
+Data Visualization, Statistics, and Data Cleaning.
+
+Responsibilities:
+- Analyze large datasets
+- Create dashboards and reports
+- Perform data cleaning and preprocessing
+- Generate business insights using analytics
+- Work with SQL databases
+- Visualize trends and patterns
+
+Requirements:
+- Good knowledge of Python and SQL
+- Experience with Power BI or Tableau
+- Understanding of statistics and analytics
+- Strong problem-solving skills
+- Good communication and reporting abilities

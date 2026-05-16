@@ -1,0 +1,9 @@
+We are looking for a Python Developer with skills in
+Python, FastAPI, SQL, APIs, Git, Docker,
+Machine Learning, and problem-solving.
+
+Responsibilities:
+- Build backend APIs
+- Work with databases
+- Collaborate with frontend teams
+- Develop scalable applications

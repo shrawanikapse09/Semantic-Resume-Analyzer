@@ -1,0 +1,8 @@
+Looking for a Machine Learning Engineer with experience in
+Python, TensorFlow, NLP, Deep Learning,
+Data Analysis, and AI systems.
+
+Responsibilities:
+- Train ML models
+- Build AI pipelines
+- Work with embeddings and vector databases
