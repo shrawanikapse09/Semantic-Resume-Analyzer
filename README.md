@@ -7,7 +7,9 @@
 
 
 *---*
+## 🚀 Live Demo
 
+https://semantic-resume-analyzer-ahaav3ugphngksxsumyznw.streamlit.app/
 
 
 *## 📸 Dashboard Preview*
